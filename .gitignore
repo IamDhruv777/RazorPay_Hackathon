@@ -1,0 +1,45 @@
+# Environment
+.env
+*.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+htmlcov/
+.coverage
+
+# Node
+node_modules/
+.next/
+out/
+frontend/.next/
+frontend/out/
+frontend/node_modules/
+
+# Data (generated — don't commit large datasets)
+data/dev/
+data/eval/
+data/demo/
+# IMPORTANT: Never commit ground truth
+data/eval_ground_truth/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
