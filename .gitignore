@@ -54,3 +54,35 @@ postgresql/
 
 scripts_archive/
 
+
+# Stale build artifacts and legacy files
+client/
+server/
+shared/
+patches/
+scripts/
+frontend/client/
+frontend/server/
+frontend/shared/
+frontend/patches/
+frontend/scripts/
+frontend/fix.js
+frontend/fix_all.js
+frontend/fix_imports.py
+frontend/AGENTS.md
+frontend/CLAUDE.md
+frontend/ideas.md
+frontend/todo.md
+frontend/template.json
+frontend/vite.config.ts
+frontend/tsconfig.node.json
+ideas.md
+todo.md
+template.json
+package.json
+pnpm-lock.yaml
+tsconfig.json
+tsconfig.node.json
+vite.config.ts
+scripts_archive/
+
