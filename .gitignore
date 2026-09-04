@@ -43,3 +43,14 @@ Thumbs.db
 # Logs
 *.log
 logs/
+
+# Databases & Data
+*.db
+*.sqlite
+*.sqlite3
+postgresql/
+*.zip
+
+
+scripts_archive/
+
